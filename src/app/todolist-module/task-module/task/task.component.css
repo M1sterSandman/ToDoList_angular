@@ -1,0 +1,48 @@
+p {
+  margin-bottom: 0;
+}
+.edit-task {
+  display: none;
+}
+.checkbox {
+  margin: 0 0 5px 5px;
+  padding: 5px;
+}
+.task-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+.task-block>p {
+  margin-left: 10px;
+  margin-right: auto;
+}
+.completed> p {
+  color: #ababab !important;
+  text-decoration: line-through !important;
+}
+.notCompleted> p {
+  color: #000;
+  text-decoration: none;
+}
+.isVisible {
+  display: flex;
+}
+.isHidden {
+  display: none;
+}
+.edit-task-input {
+  height: auto;
+  padding: 0 5px !important;
+}
+button {
+  padding: 5px;
+  margin: 0 10px;
+}
+button>img {
+  width: 25px;
+  height: 25px;
+}

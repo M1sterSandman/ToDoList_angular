@@ -1,0 +1,12 @@
+.list-name {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+button {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+button>img {
+  width: 25px;
+  height: 25px;
+}
